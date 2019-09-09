@@ -5,7 +5,7 @@ public class AppTest {
     @Test
     public void Test2(){
         /*
-            el nombre de del método debería indicar
+            el nombre del método debería indicar
             cuál es caso que se está probando en él
         */
         Libreria libreria = new Libreria();
