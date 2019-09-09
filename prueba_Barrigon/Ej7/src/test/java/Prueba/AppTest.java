@@ -4,6 +4,10 @@ import org.junit.Test;
 public class AppTest {
     @Test
     public void Test2(){
+        /*
+            el nombre de del método debería indicar
+            cuál es caso que se está probando en él
+        */
         Libreria libreria = new Libreria();
         Libro libro1 = new Libro(564, Editorial.ALIANZA);
         Libro libro2 = new Libro(186, Editorial.KAPELUZ);
@@ -30,4 +34,6 @@ public class AppTest {
         libreria.addLibro(libro1);
         assertTrue( libreria.getVentasPorEditorial(Editorial.ALIANZA) == 1 );
     }
+
+
 }
