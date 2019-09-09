@@ -1,0 +1,11 @@
+--------------------------------------------------
+uml
+
+Los simbolos de private y public están al revez
+Falta cardinalidad, navegavilidad, especificar
+el tipo de dato que retornan los métodos.
+Algunos símbolos son de composición, no de 
+agregación.
+
+--------------------------------------------------
+
