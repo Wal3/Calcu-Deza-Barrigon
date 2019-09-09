@@ -4,6 +4,9 @@ import java.util.HashSet;
 public class Libreria{
     private HashSet <Libro> listaLibros = new HashSet<Libro>();
     private HashMap <Editorial, Integer> ventasPorEditorial = new HashMap<Editorial, Integer>();
+    /*
+        los atributos se inicializan en el constructor
+    */
     public Libreria(){
     }
     public HashSet<Libro> getListaLibros() {
